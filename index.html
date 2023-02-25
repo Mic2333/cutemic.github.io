@@ -369,7 +369,7 @@
       
         jQuery.ajax({
           type: 'GET',
-          url: 'https://v1.hitokoto.cn/?c=d',
+          url: 'https://v1.hitokoto.cn/?c=k',
           headers: {},
           dataType: 'json',
           success: function(result) {
@@ -393,7 +393,7 @@
           },
           error: function(xhr, status, error) {
             if (error) {
-              console.error('Failed to request https://v1.hitokoto.cn/?c=d:', error);
+              console.error('Failed to request https://v1.hitokoto.cn/?c=k:', error);
             }
             typing(text);
           }
